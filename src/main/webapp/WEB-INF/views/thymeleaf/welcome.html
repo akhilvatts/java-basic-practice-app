@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Java Basic Application</title>
+
+  <!-- StyleSheets -->
+  <link rel="stylesheet" th:href="@{/css/main.css}"/>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>
+        <span th:text="'Hello, ' + ${message}"></span>
+    </h1>
+  </div>
+
+  <footer>
+    <p>Basic Java Project</p>
+    <p>&copy; Akhil Sharma 2024 </p>
+
+  </footer>
+</body>
+
+</html>
